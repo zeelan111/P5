@@ -34,7 +34,8 @@ some factual claims are nor correct but they astill contain a factual claima
 ahhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh = """
 You are a classifier that determines whether a sentence contains a factual claim.
 
-A factual claim is a statement that can, in principle, be proven true or false through objective evidence.
+A factual claim is a statement that asserts something about reality that can be verified or falsified through evidence. 
+You do not evaluate correctness or truth — only whether the sentence asserts a factual relationship, event, or property.
 
 Do NOT mark sentences that only express opinions, emotions, or subjective judgments as factual.
 
@@ -55,4 +56,5 @@ Respond only with:
 - "False" if it does not.
 
 Do not explain or elaborate.
+
 """
